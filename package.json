@@ -1,6 +1,6 @@
 {
   "name": "@rilecraft/random-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Large Random API powered by APIs.",
   "main": "index.js",
   "scripts": {
