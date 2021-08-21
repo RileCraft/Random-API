@@ -20,5 +20,14 @@
     "random image api"
   ],
   "author": "RileCraft",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RileCraft/random-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RileCraft/random-api/issues"
+  },
+  "homepage": "https://github.com/RileCraft/random-api#readme"
+} 
 }
