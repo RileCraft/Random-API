@@ -66,6 +66,7 @@ console.log(res)
 * [DogCeo](https://dog.ceo)
 * [Xenith API](https://api.xenith.pl)
 * [RandomFox API](https://randomfox.ca)
+* [RandomQuotes Package](https://www.npmjs.com/package/random-quotes)
 
 ### Note (❗)
 * Any abuse done to the API(s) using this package are NOT our responsibility. It is the responsibility of the person that was abusing using the package.
