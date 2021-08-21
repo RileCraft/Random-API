@@ -51,5 +51,10 @@ console.log(res)
 * `getQotd()`
 * `getQuotes()`
 
+# Credits to
+* [Some Random API](https://some-random-api.ml)
+*
+
+
 ### Note (❗)
 * Any abuse done to the API(s) using this package are NOT our responsibility. It is the responsibility of the person that was abusing using the package.
