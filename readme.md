@@ -53,8 +53,19 @@ console.log(res)
 
 # Credits to
 * [Some Random API](https://some-random-api.ml)
-*
-
+* [No Key API](http://no-api-key.com)
+* [Cryptons API](https://cryptons.ga)
+* [Random-D.uk](https://random-d.uk)
+* [PopCatDev](https://popcat.xyz/api)
+* [CatAAS API](https://cataas.com)
+* [AWS Cat](http://aws.random.cat)
+* [The Cat API](https://thecatapi.com)
+* [Tenor](https://tenor.com)
+* [AceGifs](https://acegif.com)
+* [GifBurg](https://gifburg.com)
+* [DogCeo](https://dog.ceo)
+* [Xenith API](https://api.xenith.pl)
+* [RandomFox API](https://randomfox.ca)
 
 ### Note (❗)
 * Any abuse done to the API(s) using this package are NOT our responsibility. It is the responsibility of the person that was abusing using the package.
