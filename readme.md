@@ -50,6 +50,12 @@ console.log(res)
 ## Misc 
 * `getQotd()`
 * `getQuotes()`
+* `get8ball()`
+* `getRandomNumber(smaller number, bigger number)`
+* `getPassword(number)`
+* `getRandomText(["option1", "option2", "option3" . . .])`
+* `getRandomPersonData("option")`
+<br>∟ `name , gender , city , state , street , country , postcode , timezone , email , phone , photo , birthday , age`
 
 # Credits to
 * [Some Random API](https://some-random-api.ml)
@@ -64,6 +70,7 @@ console.log(res)
 * [AceGifs](https://acegif.com)
 * [GifBurg](https://gifburg.com)
 * [DogCeo](https://dog.ceo)
+* [Random User API](https://randomuser.me/)
 * [Xenith API](https://api.xenith.pl)
 * [RandomFox API](https://randomfox.ca)
 * [RandomQuotes Package](https://www.npmjs.com/package/random-quotes)
