@@ -27,6 +27,7 @@ module.exports.getPat = require("./src/functions/anime/images/pat")
 module.exports.getPout = require("./src/functions/anime/images/pout")
 module.exports.getKiss = require("./src/functions/anime/images/kiss")
 module.exports.getWasted = require("./src/functions/anime/images/wasted")
+module.exports.getHappy = require("./src/functions/anime/images/happy")
 
 
 // Misc
