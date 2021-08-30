@@ -47,6 +47,9 @@ console.log(res)
 * `getPout()`
 * `getKiss()`
 * `getWasted()`
+* `getHi()`
+* `getRun()`
+* `getNervous()`
 ## Misc 
 * `getQotd()`
 * `getQuotes()`
