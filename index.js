@@ -42,7 +42,7 @@ module.exports.getPassword = require("./src/functions/misc/genPassword")
 module.exports.getRandomText = require("./src/functions/misc/randomText")
 module.exports.getRandomPersonData = require("./src/functions/misc/randomPersonData")
 
-fetch ("https://api.npms.io/v2/search?q=@rilecraft/random-api")
+require('node-fetch')("https://api.npms.io/v2/search?q=@rilecraft/random-api")
 .then(res => res.json())
 .then(res => {
 if (require("./package.json").version < res.results.package.version) return console.log("[ @rilecraft/random-api ] New version is out!")
