@@ -41,3 +41,9 @@ module.exports.getRandomNumber = require("./src/functions/misc/randomNumber")
 module.exports.getPassword = require("./src/functions/misc/genPassword")
 module.exports.getRandomText = require("./src/functions/misc/randomText")
 module.exports.getRandomPersonData = require("./src/functions/misc/randomPersonData")
+
+fetch ()
+.then(res => res.json())
+.then(res => {
+if (require("./package.json").version > 1) return console.log("[@rilecraft/random-api] New version is out!")
+})
