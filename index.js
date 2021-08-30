@@ -42,6 +42,9 @@ module.exports.getPassword = require("./src/functions/misc/genPassword")
 module.exports.getRandomText = require("./src/functions/misc/randomText")
 module.exports.getRandomPersonData = require("./src/functions/misc/randomPersonData")
 
+
+
+// Version Checker
 require('node-fetch')("https://api.npms.io/v2/search?q=@rilecraft/random-api")
 .then(res => res.json())
 .then(res => {
