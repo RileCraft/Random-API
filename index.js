@@ -45,5 +45,8 @@ module.exports.getRandomPersonData = require("./src/functions/misc/randomPersonD
 require('node-fetch')("https://api.npms.io/v2/search?q=@rilecraft/random-api")
 .then(res => res.json())
 .then(res => {
-if (require("./package.json").version < res.results.package.version) return console.log("[ @rilecraft/random-api ] New version is out!")
+	const chalk = require('chalk')
+	let hm = res.results[0].package.version
+	let pkg = require(`${__dirname}/package.json`).version
+if (pkg < hm) return console.log(chalk.bold.blueBright("[ @rilecraft/random-api ] ") + chalk.bold.yellowBright("New version is out!"))
 })
