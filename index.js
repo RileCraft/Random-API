@@ -45,5 +45,5 @@ module.exports.getRandomPersonData = require("./src/functions/misc/randomPersonD
 fetch ()
 .then(res => res.json())
 .then(res => {
-if (require("./package.json").version > 1) return console.log("[@rilecraft/random-api] New version is out!")
+if (require("./package.json").version > 1) return console.log("[ @rilecraft/random-api ] New version is out!")
 })
